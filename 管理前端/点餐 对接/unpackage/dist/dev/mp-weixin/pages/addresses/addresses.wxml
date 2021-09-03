@@ -1,0 +1,1 @@
+<view class="container data-v-723f2fe8"><view class="content data-v-723f2fe8"></view><view class="footer data-v-723f2fe8"><button type="info" open-type="navigate" url="pages//mart//mart" data-event-opts="{{[['tap',[['add',['$event']]]]]}}" bindtap="__e" class="data-v-723f2fe8">+添加新菜</button></view></view>

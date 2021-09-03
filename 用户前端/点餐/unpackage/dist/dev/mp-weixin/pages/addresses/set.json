@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑地址",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}

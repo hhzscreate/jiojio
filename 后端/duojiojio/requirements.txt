@@ -1,0 +1,4 @@
+requests==2.22.0
+redis==3.3.8
+Django==2.2.5
+djangorestframework==3.12.4

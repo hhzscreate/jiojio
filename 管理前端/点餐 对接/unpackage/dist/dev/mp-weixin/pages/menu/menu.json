@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "菜单一览",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}

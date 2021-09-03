@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/my/info",
+    "pages/addresses/addresses",
+    "pages/addresses/add",
+    "pages/pay/pay",
+    "pages/pay/remark",
+    "pages/my/login",
+    "pages/reg/reg",
+    "pages/menu/menu",
+    "pages/mart/mart",
+    "pages/uses/uses",
+    "pages/preorder/preorder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FDFDFD"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#343434",
+    "borderStyle": "white",
+    "backgroundColor": "#F7F7F7",
+    "fontSize": "10px",
+    "iconWidth": "30px",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mart/mart",
+        "iconPath": "static/images/tabbar/mart.png",
+        "selectedIconPath": "static/images/tabbar/mart_selected.png",
+        "text": "菜单管理"
+      },
+      {
+        "pagePath": "pages/preorder/preorder",
+        "iconPath": "static/images/tabbar/index.png",
+        "selectedIconPath": "static/images/tabbar/index_selected.png",
+        "text": "接单系统"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/images/tabbar/order.png",
+        "selectedIconPath": "static/images/tabbar/order_selected.png",
+        "text": "历史订单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my_selected.png",
+        "text": "用户信息管理"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

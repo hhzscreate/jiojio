@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: auto;
+}
+.banner-swiper {
+  height: 750rpx;
+}
+.banner-swiper .swier-item image {
+  height: 100%;
+}
+.banner-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.banner-section image {
+  width: 375rpx;
+}
+.section-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+  padding: 20rpx 0;
+}
+.section-header .title {
+  font-family: 'wenyue';
+  font-size: 44rpx;
+  margin-right: 20rpx;
+}
+.section-header .subtitle {
+  font-family: 'neutra';
+  font-size: 24rpx;
+  color: #999;
+}
+.content-section {
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+}
+.new-arrivals {
+  margin-bottom: 20rpx;
+}
+.new-arrivals .section-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.new-arrivals .section-body image {
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+.you-may-also-like {
+  padding: 20rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.you-may-also-like .product {
+  background-color: #FFFFFF;
+  width: 335rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+}
+.you-may-also-like .product image {
+  width: 100%;
+  border-radius: 12rpx 12rpx 0 0;
+}
+.you-may-also-like .product .info {
+  padding: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+.you-may-also-like .product .info .desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.you-may-also-like .product .info .desc .title {
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 14rpx;
+}
+.you-may-also-like .product .info .desc .sub {
+  font-size: 24rpx;
+  color: #999;
+}
+.you-may-also-like .product .info .extra {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.you-may-also-like .product .info .extra .price {
+  color: #110d08;
+  font-size: 32rpx;
+  font-weight: 500 !important;
+}
+.you-may-also-like .product .info .extra .action image {
+  width: 40rpx;
+  height: 40rpx;
+}
+

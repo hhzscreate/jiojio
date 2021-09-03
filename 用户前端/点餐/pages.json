@@ -1,0 +1,125 @@
+{
+	"pages": [
+		//主页
+		{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "剁jiojio",
+			"navigationStyle": "custom"
+		}
+	}, 
+	
+	{
+		"path": "pages/order/order",
+		"style": {
+			"navigationStyle": "custom",
+			"disableScroll": true
+		}
+	}, {
+		"path": "pages/order/detail",
+		"style": {
+			"navigationBarTitleText": "订单详情"
+		}
+	},
+	{
+		"path": "pages/my/my",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, 
+	// {
+	// 	"path": "pages/my/mall",
+	// 	"style": {}
+	// },
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "剁jiojio",
+			"disableScroll": true
+		}
+	}, 
+	{
+		"path": "pages/my/info",
+		"style": {
+			"navigationBarTitleText": "个人资料"
+		}
+	}, 
+	{
+		"path": "pages/addresses/addresses",
+		"style": {
+			"navigationBarTitleText": "收货地址"
+		}
+	}, 
+	{
+		"path": "pages/addresses/add",
+		"style": {
+			"navigationBarTitleText": "添加地址"
+		}
+	}, 
+	{
+		"path": "pages/addresses/set",
+		"style": {
+			"navigationBarTitleText": "编辑地址"
+		}
+	}, 
+	{
+		"path": "pages/pay/pay",
+		"style": {
+			"navigationBarTitleText": "订单结算"
+		}
+	},
+	{
+		"path": "pages/pay/remark",
+		"style": {
+			"navigationBarTitleText": "备注"
+		}
+	},
+	{
+		"path": "pages/my/login",
+		"style": {
+			"navigationBarTitleText": "登录"
+		}
+	},
+	{
+		"path": "pages/reg/reg",
+		"style": {
+			"navigationBarTitleText": "注册"
+		}
+	}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#343434",
+		"borderStyle": "white",
+		"backgroundColor": "#F7F7F7",
+		"fontSize": "10px",
+		"iconWidth": "30px",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/images/tabbar/home.png",
+			"selectedIconPath": "static/images/tabbar/home_selected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/index.png",
+			"selectedIconPath": "static/images/tabbar/index_selected.png",
+			"text": "点单"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "static/images/tabbar/order.png",
+			"selectedIconPath": "static/images/tabbar/order_selected.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/tabbar/my.png",
+			"selectedIconPath": "static/images/tabbar/my_selected.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FDFDFD"
+	}
+}
